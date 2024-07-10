@@ -3,7 +3,7 @@ on: push
 env:
   PG_DATABASE: wd-todo-test
   PG_USER: postgres
-  PG_PASSWORD: admin
+  PG_PASSWORD: changeme
 jobs:
   
   run-tests:
